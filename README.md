@@ -1,5 +1,5 @@
 # RabiesModellingEpidemics-1
-Adapt rabies modelling in Australia to Indonesia situation
+Find the suitable model in Indonesia situation (low/middle/high dog population)
 
 ## There are 6 files:
 - ArcGISMap
