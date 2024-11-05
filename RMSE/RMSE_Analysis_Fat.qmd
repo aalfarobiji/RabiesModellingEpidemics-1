@@ -1,0 +1,61 @@
+---
+title: "RMSE Analysis"
+format: html
+editor: visual
+---
+
+## Fatukpa (Vaccine)
+
+```{r}
+library(readxl)
+data2b <- read_excel("F:/Data Thesis/Ratio1=8/Fatukopa/allreport(dailyNumberReport)_Fatukopa167.xlsx")
+data2b
+```
+
+```{r}
+# Count RMSE
+# Initialize an empty vector to store RMSE values
+rmse_values2b <- numeric(10)
+
+# Loop through each column from Dogs_inf...2 to Dogs_inf...51
+for (i in 2:11) {
+  # Construct the column name
+  column_name <- paste("Dogs_inf...", i, sep = "")
+  
+  # Calculate RMSE and store it in the vector
+  rmse_values2b[i - 1] <- sqrt(mean((data2b$act - data2b[[column_name]])^2))
+}
+
+# Print the RMSE values
+rmse_values2b
+```
+
+```{r}
+# Mean RMSE
+mean(rmse_values2b)
+```
+
+```{r}
+boxplot(rmse_values2b, ylim = c(0, 6), main = "Fatukopa (Vaccine)", ylab = "RMSE")
+```
+
+```{r}
+hist(rmse_values2b)
+```
+
+```{r}
+# Plot the first series (actual data)
+plot(data2b$act, type = "l", col = "red", ylim = range(data2b[,2:11], data2b$act), xlab = "Index", ylab = "Value")
+
+# Loop through each of the Dogs_inf columns and add them to the plot
+for (i in 2:11) {
+  # Construct the column name
+  column_name <- paste("Dogs_inf...", i, sep = "")
+  
+  # Add the line to the plot
+  lines(data2b[[column_name]], type = "l", col = "grey")
+}
+
+# Add a legend if necessary
+legend("topleft", legend = c("act", "Simulation"), col = c("red", "grey"), lty = 1)
+```
