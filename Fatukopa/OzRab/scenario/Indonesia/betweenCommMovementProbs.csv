@@ -1,0 +1,8 @@
+﻿from_col_to_row,Besnam,Ello,Fatukopa,Kiki,Nifulinah,Nunfutu,Taebone
+Besnam,0,1,1,1,1,1,1
+Ello,1,0,1,1,1,1,1
+Fatukopa,1,1,0,1,1,1,1
+Kiki,1,1,1,0,1,1,1
+Nifulinah,1,1,1,1,0,1,1
+Nunfutu,1,1,1,1,1,0,1
+Taebone,1,1,1,1,1,1,0
