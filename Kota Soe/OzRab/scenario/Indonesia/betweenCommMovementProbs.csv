@@ -1,0 +1,14 @@
+﻿from_col_to_row,Cendana,KampungBaru,KarangSiri,Kobekamusa,KotaBaru,Kuatae,Noemeto,Nonohonis,Nunumeu,Oebesa,Oekefan,Soe,Taubneno
+Cendana,0,1,1,1,1,1,1,1,1,1,1,1,1
+KampungBaru,1,0,1,1,1,1,1,1,1,1,1,1,1
+KarangSiri,1,1,0,1,1,1,1,1,1,1,1,1,1
+Kobekamusa,1,1,1,0,1,1,1,1,1,1,1,1,1
+KotaBaru,1,1,1,1,0,1,1,1,1,1,1,1,1
+Kuatae,1,1,1,1,1,0,1,1,1,1,1,1,1
+Noemeto,1,1,1,1,1,1,0,1,1,1,1,1,1
+Nonohonis,1,1,1,1,1,1,1,0,1,1,1,1,1
+Nunumeu,1,1,1,1,1,1,1,1,0,1,1,1,1
+Oebesa,1,1,1,1,1,1,1,1,1,0,1,1,1
+Oekefan,1,1,1,1,1,1,1,1,1,1,0,1,1
+Soe,1,1,1,1,1,1,1,1,1,1,1,0,1
+Taubneno,1,1,1,1,1,1,1,1,1,1,1,1,0
