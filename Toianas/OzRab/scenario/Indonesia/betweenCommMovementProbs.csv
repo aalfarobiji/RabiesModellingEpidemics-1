@@ -1,0 +1,10 @@
+﻿from_col_to_row,Bokong,Lobus,Mili,Noeolin,Oeleu,Sambet,Skinu,Toianas,Tuataum
+Bokong,0,1,1,1,1,1,1,1,1
+Lobus,1,0,1,1,1,1,1,1,1
+Mili,1,1,0,1,1,1,1,1,1
+Noeolin,1,1,1,0,1,1,1,1,1
+Oeleu,1,1,1,1,0,1,1,1,1
+Sambet,1,1,1,1,1,0,1,1,1
+Skinu,1,1,1,1,1,1,0,1,1
+Toianas,1,1,1,1,1,1,1,0,1
+Tuataum,1,1,1,1,1,1,1,1,0
