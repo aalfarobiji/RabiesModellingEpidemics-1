@@ -1,7 +1,7 @@
 # RabiesModellingEpidemics-1
 Find the suitable model in Indonesia situation (low/middle/high dog population)
 
-## There are 6 files:
+## This process uses 6 files:
 - ArcGISMap
 - 3 Districts (Fatukopa, Kota Soe, and Toianas)
 - RMSE
